@@ -1,0 +1,36 @@
+//
+//  FM.pch
+//  FM
+//
+//  Created by lanou3g on 15/10/6.
+//  Copyright (c) 2015年 YT. All rights reserved.
+//
+
+#ifndef FM_FM_pch
+#define FM_FM_pch
+//推荐接口
+#define url_Recommend @"http://fmlive.shuoba.org/v3/playback/recommend/page_info"
+//音乐接口
+#define url_Music @"http://fmlive.shuoba.org/v3/playback/category/3/page_info"
+//资讯接口
+#define url_Information @"http://fmlive.shuoba.org/v3/playback/category/4/page_info"
+//娱乐接口
+#define url_Recreation @"http://fmlive.shuoba.org/v3/playback/category/2/page_info"
+//财经接口
+#define url_Economics @"http://fmlive.shuoba.org/v3/playback/category/6/page_info"
+//文化接口
+#define url_Culture @"http://fmlive.shuoba.org/v3/playback/category/11/page_info"
+//生活接口
+#define url_Live @"http://fmlive.shuoba.org/v3/playback/category/9/page_info"
+//体育接口
+#define url_Sports @"http://fmlive.shuoba.org/v3/playback/category/10/page_info"
+//故事接口
+#define url_Story @"http://fmlive.shuoba.org/v3/playback/category/7/page_info"
+//情感接口
+#define url_Emotion @"http://fmlive.shuoba.org/v3/playback/category/5/page_info"
+//校园接口
+#define url_Schoolyard @"http://fm.shuoba.org/v3/playback/category/12/page_info"
+//汽车接口
+#define url_Car @"http://fm.shuoba.org/v3/playback/category/8/page_info"
+
+#endif

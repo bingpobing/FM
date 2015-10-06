@@ -35,6 +35,7 @@
 		C2FFA52C1BC3B068004B69B0 /* FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTests.m; sourceTree = "<group>"; };
 		C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2FFA54A1BC3B6FA004B69B0 /* FM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FM.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +79,10 @@
 			children = (
 				C2FFA5401BC3B4B4004B69B0 /* AppDelegate */,
 				C2FFA5431BC3B4B4004B69B0 /* Discover */,
-				C2FFA5441BC3B4B4004B69B0 /* Mine */,
-				C2FFA5451BC3B4B4004B69B0 /* Other */,
-				C2FFA5461BC3B4B4004B69B0 /* Player */,
 				C2FFA5471BC3B4B4004B69B0 /* Radio */,
+				C2FFA5441BC3B4B4004B69B0 /* Mine */,
+				C2FFA5461BC3B4B4004B69B0 /* Player */,
+				C2FFA5451BC3B4B4004B69B0 /* Other */,
 				C2FFA5481BC3B4B4004B69B0 /* Resource */,
 				C2FFA51D1BC3B068004B69B0 /* Images.xcassets */,
 				C2FFA51F1BC3B068004B69B0 /* LaunchScreen.xib */,
@@ -95,6 +96,7 @@
 			children = (
 				C2FFA5171BC3B068004B69B0 /* Info.plist */,
 				C2FFA5181BC3B068004B69B0 /* main.m */,
+				C2FFA54A1BC3B6FA004B69B0 /* FM.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -385,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FM/FM.pch;
 				INFOPLIST_FILE = FM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = FM/FM.pch;
 				INFOPLIST_FILE = FM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
