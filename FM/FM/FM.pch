@@ -37,4 +37,38 @@
 //汽车接口
 #define url_Car @"http://fm.shuoba.org/v3/playback/category/8/page_info"
 
+
+
+
+
+//热播榜
+#define hot_url @"http://fmlive.shuoba.org/hot_list/0/0"
+//音乐台
+#define music_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/6"
+//新闻台
+#define news_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/1"
+//北京台
+#define BeiJing_url @"http://fmlive.shuoba.org/program_info_list/type/1/type_key/7"
+
+//国家台
+#define Country_url @"http://fmlive.shuoba.org/program_info_list/type/1/type_key/3"
+//省市台
+#define Privince_url @"http://fmlive.shuoba.org/hot_list/0/0"
+//娱乐
+#define Play_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/2"
+//情感
+#define Emotion_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/4"
+//生活
+#define Live_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/9"
+//交通
+#define traffic_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/8"
+//方言
+#define dialect_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/10"
+//网络
+#define Net_url @"http://fmlive.shuoba.org/program_info_list/type/1/type_key/1"
+//财经
+#define Economic_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/5"
+//体育
+#define Sports_url @"http://fmlive.shuoba.org/program_info_list/type/2/type_key/3"
+
 #endif
