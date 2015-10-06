@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DiscoverController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,11 +18,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    DiscoverController *discoverVC = [[DiscoverController alloc]initWithStyle:UITableViewStylePlain];
+    UINavigationController *discoverNC = [[UINavigationController alloc]initWithRootViewController:discoverVC];
     
     
-    NSLog(@"亮亮个逗比");
+    NSArray *allNC = @[discoverNC];
     
+    UITabBarController *tabBarVC = [[UITabBarController alloc]init];
     
+    tabBarVC.viewControllers = allNC;
+    
+    self.window.rootViewController = tabBarVC;
     
     
     
