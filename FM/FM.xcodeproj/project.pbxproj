@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C255A87A1BC3BDFA006CE99D /* DiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = C255A8791BC3BDFA006CE99D /* DiscoverController.m */; };
-		C255A8C81BC3E5DC006CE99D /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C255A8C71BC3E5DC006CE99D /* MineController.m */; };
 		C2FFA5191BC3B068004B69B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5181BC3B068004B69B0 /* main.m */; };
 		C2FFA51E1BC3B068004B69B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51D1BC3B068004B69B0 /* Images.xcassets */; };
 		C2FFA5211BC3B068004B69B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51F1BC3B068004B69B0 /* LaunchScreen.xib */; };
 		C2FFA52D1BC3B068004B69B0 /* FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA52C1BC3B068004B69B0 /* FMTests.m */; };
 		C2FFA5491BC3B4B4004B69B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */; };
+		C2FFA5B11BC3EBF6004B69B0 /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5B01BC3EBF6004B69B0 /* MineController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,6 @@
 /* Begin PBXFileReference section */
 		C255A8781BC3BDFA006CE99D /* DiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverController.h; sourceTree = SOURCE_ROOT; };
 		C255A8791BC3BDFA006CE99D /* DiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverController.m; sourceTree = SOURCE_ROOT; };
-		C255A8C61BC3E5DC006CE99D /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = SOURCE_ROOT; };
-		C255A8C71BC3E5DC006CE99D /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = SOURCE_ROOT; };
 		C2FFA5131BC3B068004B69B0 /* FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FFA5171BC3B068004B69B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FFA5181BC3B068004B69B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C2FFA54A1BC3B6FA004B69B0 /* FM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FM.pch; sourceTree = "<group>"; };
+		C2FFA5AF1BC3EBF6004B69B0 /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		C2FFA5B01BC3EBF6004B69B0 /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,8 +244,8 @@
 		C2FFA5511BC3BAC7004B69B0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C255A8C61BC3E5DC006CE99D /* MineController.h */,
-				C255A8C71BC3E5DC006CE99D /* MineController.m */,
+				C2FFA5AF1BC3EBF6004B69B0 /* MineController.h */,
+				C2FFA5B01BC3EBF6004B69B0 /* MineController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -391,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C255A8C81BC3E5DC006CE99D /* MineController.m in Sources */,
+				C2FFA5B11BC3EBF6004B69B0 /* MineController.m in Sources */,
 				C255A87A1BC3BDFA006CE99D /* DiscoverController.m in Sources */,
 				C2FFA5191BC3B068004B69B0 /* main.m in Sources */,
 				C2FFA5491BC3B4B4004B69B0 /* AppDelegate.m in Sources */,
