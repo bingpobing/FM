@@ -127,6 +127,7 @@
 		C2FFA5401BC3B4B4004B69B0 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				C2FFA5AE1BC3E9D5004B69B0 /* 未命名文件夹 */,
 				C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */,
 				C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */,
 			);
@@ -273,6 +274,13 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C2FFA5AE1BC3E9D5004B69B0 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
