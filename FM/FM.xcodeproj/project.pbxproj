@@ -62,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C27556831BC3EAAC006D62CF /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = test;
+			path = AppDelegate/test;
+			sourceTree = "<group>";
+		};
 		C2FFA50A1BC3B068004B69B0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +91,7 @@
 		C2FFA5151BC3B068004B69B0 /* FM */ = {
 			isa = PBXGroup;
 			children = (
+				C27556831BC3EAAC006D62CF /* test */,
 				C2FFA5401BC3B4B4004B69B0 /* AppDelegate */,
 				C2FFA5431BC3B4B4004B69B0 /* Discover */,
 				C2FFA5471BC3B4B4004B69B0 /* Radio */,
@@ -127,6 +136,7 @@
 		C2FFA5401BC3B4B4004B69B0 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				C2FFA5AE1BC3E9D5004B69B0 /* 未命名文件夹 */,
 				C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */,
 				C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */,
 			);
@@ -273,6 +283,13 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C2FFA5AE1BC3E9D5004B69B0 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
