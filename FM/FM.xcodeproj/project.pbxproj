@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2029CD81BC3EEF1001BFF65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2029CD71BC3EEF1001BFF65 /* ViewController.m */; };
 		C2FFA5191BC3B068004B69B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5181BC3B068004B69B0 /* main.m */; };
 		C2FFA51E1BC3B068004B69B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51D1BC3B068004B69B0 /* Images.xcassets */; };
 		C2FFA5211BC3B068004B69B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51F1BC3B068004B69B0 /* LaunchScreen.xib */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2029CD61BC3EEF1001BFF65 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2029CD71BC3EEF1001BFF65 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2FFA5131BC3B068004B69B0 /* FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FFA5171BC3B068004B69B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FFA5181BC3B068004B69B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 			children = (
 				C2FFA5B51BC3ED69004B69B0 /* RadioController.h */,
 				C2FFA5B61BC3ED69004B69B0 /* RadioController.m */,
+				C2029CD61BC3EEF1001BFF65 /* ViewController.h */,
+				C2029CD71BC3EEF1001BFF65 /* ViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -454,6 +459,7 @@
 				C2FFA5CE1BC3EDEB004B69B0 /* MineView.m in Sources */,
 				C2FFA5BF1BC3EDA0004B69B0 /* DiscoverModel.m in Sources */,
 				C2FFA5B41BC3ED12004B69B0 /* DiscoverController.m in Sources */,
+				C2029CD81BC3EEF1001BFF65 /* ViewController.m in Sources */,
 				C2FFA5BB1BC3ED86004B69B0 /* PlayerController.m in Sources */,
 				C2FFA5491BC3B4B4004B69B0 /* AppDelegate.m in Sources */,
 				C2FFA5C81BC3EDD4004B69B0 /* RadioModelView.m in Sources */,
