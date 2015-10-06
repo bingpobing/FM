@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C2FFA5191BC3B068004B69B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5181BC3B068004B69B0 /* main.m */; };
-		C2FFA51C1BC3B068004B69B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA51B1BC3B068004B69B0 /* AppDelegate.m */; };
 		C2FFA51E1BC3B068004B69B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51D1BC3B068004B69B0 /* Images.xcassets */; };
 		C2FFA5211BC3B068004B69B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FFA51F1BC3B068004B69B0 /* LaunchScreen.xib */; };
 		C2FFA52D1BC3B068004B69B0 /* FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA52C1BC3B068004B69B0 /* FMTests.m */; };
+		C2FFA5491BC3B4B4004B69B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +28,13 @@
 		C2FFA5131BC3B068004B69B0 /* FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FFA5171BC3B068004B69B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FFA5181BC3B068004B69B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C2FFA51A1BC3B068004B69B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C2FFA51B1BC3B068004B69B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C2FFA51D1BC3B068004B69B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2FFA5201BC3B068004B69B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C2FFA5261BC3B068004B69B0 /* FMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FFA52B1BC3B068004B69B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FFA52C1BC3B068004B69B0 /* FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMTests.m; sourceTree = "<group>"; };
+		C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,13 @@
 		C2FFA5151BC3B068004B69B0 /* FM */ = {
 			isa = PBXGroup;
 			children = (
-				C2FFA51A1BC3B068004B69B0 /* AppDelegate.h */,
-				C2FFA51B1BC3B068004B69B0 /* AppDelegate.m */,
+				C2FFA5401BC3B4B4004B69B0 /* AppDelegate */,
+				C2FFA5431BC3B4B4004B69B0 /* Discover */,
+				C2FFA5441BC3B4B4004B69B0 /* Mine */,
+				C2FFA5451BC3B4B4004B69B0 /* Other */,
+				C2FFA5461BC3B4B4004B69B0 /* Player */,
+				C2FFA5471BC3B4B4004B69B0 /* Radio */,
+				C2FFA5481BC3B4B4004B69B0 /* Resource */,
 				C2FFA51D1BC3B068004B69B0 /* Images.xcassets */,
 				C2FFA51F1BC3B068004B69B0 /* LaunchScreen.xib */,
 				C2FFA5161BC3B068004B69B0 /* Supporting Files */,
@@ -109,6 +114,57 @@
 				C2FFA52B1BC3B068004B69B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2FFA5401BC3B4B4004B69B0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2FFA5411BC3B4B4004B69B0 /* AppDelegate.h */,
+				C2FFA5421BC3B4B4004B69B0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2FFA5431BC3B4B4004B69B0 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		C2FFA5441BC3B4B4004B69B0 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C2FFA5451BC3B4B4004B69B0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C2FFA5461BC3B4B4004B69B0 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		C2FFA5471BC3B4B4004B69B0 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		C2FFA5481BC3B4B4004B69B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2FFA51C1BC3B068004B69B0 /* AppDelegate.m in Sources */,
 				C2FFA5191BC3B068004B69B0 /* main.m in Sources */,
+				C2FFA5491BC3B4B4004B69B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +454,7 @@
 				C2FFA5321BC3B068004B69B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2FFA5331BC3B068004B69B0 /* Build configuration list for PBXNativeTarget "FMTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +463,7 @@
 				C2FFA5351BC3B068004B69B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
