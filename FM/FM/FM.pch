@@ -8,6 +8,10 @@
 
 #ifndef FM_FM_pch
 #define FM_FM_pch
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
 //推荐接口
 #define url_Recommend @"http://fmlive.shuoba.org/v3/playback/recommend/page_info"
 //音乐接口
