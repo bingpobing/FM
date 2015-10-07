@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DiscoverController.h"
+#import "MineController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,12 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+    //发现控制器
     DiscoverController *discoverVC = [[DiscoverController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *discoverNC = [[UINavigationController alloc]initWithRootViewController:discoverVC];
+    //我的控制器
+    MineController *mineVC = [MineController new];
+    UINavigationController *mineNC = [[UINavigationController alloc]initWithRootViewController:mineVC];
     
-    
-    NSArray *allNC = @[discoverNC];
+    NSArray *allNC = @[discoverNC,mineNC];
     
     UITabBarController *tabBarVC = [[UITabBarController alloc]init];
     
