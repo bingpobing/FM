@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DiscoverController.h"
+#import "RadioController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,10 +22,23 @@
     DiscoverController *discoverVC = [[DiscoverController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *discoverNC = [[UINavigationController alloc]initWithRootViewController:discoverVC];
     
+
+    UINavigationController *RadioNC = [[UINavigationController alloc]initWithRootViewController:[RadioController new]];
+    RadioNC.tabBarItem.title = @"电台";
+    RadioNC.tabBarItem.image = [UIImage imageNamed:@"iconfont-svgmoban16"];
     
-    NSArray *allNC = @[discoverNC];
+    
+    
+    
+    
+    
+    
+    
+    
+    NSArray *allNC = @[discoverNC,RadioNC];
     
     UITabBarController *tabBarVC = [[UITabBarController alloc]init];
+    
     
     tabBarVC.viewControllers = allNC;
     

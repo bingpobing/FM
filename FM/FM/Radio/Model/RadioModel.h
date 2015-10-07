@@ -10,4 +10,8 @@
 
 @interface RadioModel : NSObject
 
+@property(nonatomic , strong) NSString *tname;
+
+@property(nonatomic , strong) NSURL *PicUrl;
+
 @end
