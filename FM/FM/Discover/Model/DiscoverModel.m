@@ -10,4 +10,9 @@
 
 @implementation DiscoverModel
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key{
+    NSLog(@"KVC错误,key:%@",key);
+}
+
+
 @end
