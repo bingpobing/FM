@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DiscoverController.h"
 #import "RadioController.h"
+#import "MineController.h"
 @interface AppDelegate ()
 
 @end
@@ -28,6 +29,8 @@
     RadioNC.tabBarItem.image = [UIImage imageNamed:@"iconfont-svgmoban16"];
     
     
+    MineController *mineVC = [MineController new];
+    UINavigationController *mineNC = [[UINavigationController alloc]initWithRootViewController:mineVC];
     
     
     
@@ -35,7 +38,7 @@
     
     
     
-    NSArray *allNC = @[discoverNC,RadioNC];
+    NSArray *allNC = @[discoverNC,RadioNC,mineNC];
     
     UITabBarController *tabBarVC = [[UITabBarController alloc]init];
     
